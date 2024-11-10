@@ -32,5 +32,9 @@
     "files.exclude": {
         "http://127.0.0.1:8050/": true,
         "python dashboard_newsletter_and_refer.py": true
-    }
+    },
+    "explorer.autoRevealExclude": {
+        "http://127.0.0.1:8050/": true
+    },
+    "explorer.confirmUndo": "default"
 }
