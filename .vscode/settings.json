@@ -25,5 +25,12 @@
     "editor.codeActionsOnSave": {
         "source.organizeLinkDefinitions": "explicit"
     },
-    "markdown.editor.filePaste.videoSnippet": "<video src=\"${src}\" title=\"${title}\" autoplay loop controls muted></video>"
+    "markdown.editor.filePaste.videoSnippet": "<video src=\"${src}\" title=\"${title}\" autoplay loop controls muted></video>",
+    "search.exclude": {
+        "http://127.0.0.1:8050/": true
+    },
+    "files.exclude": {
+        "http://127.0.0.1:8050/": true,
+        "python dashboard_newsletter_and_refer.py": true
+    }
 }
